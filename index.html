@@ -17,3 +17,14 @@
 <p> Mirror Test Experiment</p>
 <a href = "conversion.html">ConversionControl</a>
 <a href = "conversion2.html">ConversionExperiment</a>
+
+<input type="number" id="passcode" name="passcode"/>
+<a href = "" onclick="checkPasscode(); return false;"Conversion</a>
+<script>
+function checkPasscode() {
+  int input = document.getElementById('passcode').value;
+  if (input == 448812149) {
+    window.location.href = "conversion2.html";
+  }
+}
+</script>
