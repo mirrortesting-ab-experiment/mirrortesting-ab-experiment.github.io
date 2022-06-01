@@ -22,7 +22,7 @@
 <a href = "" onclick="checkPasscode(); return false;">Conversion</a>
 <script>
 function checkPasscode() {
-  int input = document.getElementById('passcode').value;
+  var input = document.getElementById('passcode').value;
   if (input == 448812149) {
     window.location.href = "conversion2.html";
   }
