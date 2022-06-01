@@ -19,12 +19,13 @@
 <a href = "conversion2.html">ConversionExperiment</a>
 
 <input type="number" id="passcode" name="passcode"/>
-<a href = "" onclick="checkPasscode(); return false;">Conversion</a>
+<a href = "" onclick="checkPasscode('conversion.html'); return false;">Conversion</a>
+<a href = "" onclick="checkPasscode('conversion2.html'); return false;">Conversion2</a>
 <script>
-function checkPasscode() {
+function checkPasscode(url) {
   var input = document.getElementById('passcode').value;
   if (input == 448812149) {
-    window.location.href = "conversion2.html";
+    window.location.href = url;
   }
 }
 </script>
